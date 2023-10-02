@@ -1,8 +1,8 @@
-package senac.java.Views;
+package Views;
 
-import senac.java.Domain.Products;
-import senac.java.Domain.Salesperson;
-import senac.java.Domain.Users;
+import Domain.Products;
+import Domain.Salesperson;
+import Domain.Users;
 import senac.java.Util;
 
 import java.util.Scanner;
@@ -16,11 +16,6 @@ public class Imprimir {
     String salesperson = Salesperson.name;
     String user = Users.name;
     String product = Products.pName;
-
-
-
-
-
 
 
 

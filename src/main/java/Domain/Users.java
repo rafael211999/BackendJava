@@ -1,4 +1,4 @@
-package senac.java.Domain;
+package Domain;
 
 public class Users {
     int id;

@@ -1,7 +1,7 @@
 package senac.java;
 
-import senac.java.Services.Cadastros;
-import senac.java.Views.Imprimir;
+import Services.Cadastros;
+import Views.Imprimir;
 
 
 public class Util {

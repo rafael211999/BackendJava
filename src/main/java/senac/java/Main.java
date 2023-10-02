@@ -1,6 +1,6 @@
 package senac.java;
 
-import senac.java.Views.Imprimir;
+import Views.Imprimir;
 
 public class Main {
     public static void main(String[] args) {

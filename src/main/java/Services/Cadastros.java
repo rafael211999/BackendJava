@@ -1,10 +1,10 @@
-package senac.java.Services;
+package Services;
 
-import senac.java.Domain.Products;
-import senac.java.Domain.Salesperson;
-import senac.java.Domain.Stores;
-import senac.java.Domain.Users;
-import senac.java.Views.Imprimir;
+import Domain.Products;
+import Domain.Salesperson;
+import Domain.Stores;
+import Domain.Users;
+import Views.Imprimir;
 
 import java.util.Scanner;
 
