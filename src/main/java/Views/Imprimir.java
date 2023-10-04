@@ -17,6 +17,8 @@ public class Imprimir {
     String user = Users.name;
     String product = Products.pName;
 
+     static String valid =  " ";
+
 
 
     public static void entradaOpcao() {
@@ -46,6 +48,7 @@ public class Imprimir {
         System.out.println("Endereço: " + Salesperson.address);
         System.out.println(" ");
         myTela = "1";
+        valid = "vendedor" ;
         telaSairOuNao();
     }
 
@@ -62,6 +65,7 @@ public class Imprimir {
         System.out.println("Password: " + Users.password);
         System.out.println("Cpf: " + Users.cpf);
         System.out.println(" ");
+        valid = "cliente";
         myTela = "2";
         telaSairOuNao();
     }
@@ -79,13 +83,14 @@ public class Imprimir {
         System.out.println("Imagem: " + Products.img);
         System.out.println(" ");
         myTela = "3";
+        valid = "produto";
         telaSairOuNao();
 
     }
 
     public static void telaSairOuNao() {
         System.out.println(" ");
-        System.out.println("Deseja fazer um novo cadastro?");
+        System.out.println("Deseja fazer um novo cadastro de " + valid + " ?");
         System.out.println(" ");
         System.out.println("Digite sim para fazer um novo cadastro");
         System.out.println("Digite nao para voltar ao inicio");

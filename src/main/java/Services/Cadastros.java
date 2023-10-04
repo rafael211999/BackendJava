@@ -14,7 +14,7 @@ public class Cadastros {
     static Products products = new Products();
     static Scanner sc = new Scanner(System.in);
 
-    public static void cadatroVendedor() {
+    public static void cadastroVendedor() {
         System.out.println(" ");
         System.out.println("Digite o nome do vendedor que deseja cadastrar: ");
         salesperson.name = sc.nextLine();

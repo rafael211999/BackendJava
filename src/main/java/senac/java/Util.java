@@ -9,7 +9,7 @@ public class Util {
     public static void chamadaCadastro(String opcao) {
         switch (opcao) {
             case "1":
-                Cadastros.cadatroVendedor();
+                Cadastros.cadastroVendedor();
                 break;
             case "2":
                 Cadastros.cadastroCliente();
@@ -33,7 +33,7 @@ public class Util {
 
             switch (myTela) {
                 case "1":
-                    Cadastros.cadatroVendedor();
+                    Cadastros.cadastroVendedor();
                     break;
                 case "2":
                     Cadastros.cadastroCliente();
