@@ -21,6 +21,7 @@ public class Util {
                 break;
             default:
                 System.out.println("Escolha uma das opções apresentadas");
+                Imprimir.entradaOpcao();
 
         }
     }
@@ -41,6 +42,7 @@ public class Util {
                 case "3":
                     Cadastros.cadastroProduto();
                     break;
+                default: System.out.println("Resposta não encontrada");
             }
 
         } else if (cp.equals("nao")){
