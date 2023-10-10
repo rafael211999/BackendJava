@@ -14,9 +14,7 @@ public class Main {
 
 
         api.ApiServer();
-//        Imprimir.entradaOpcao();
+        Imprimir.entradaOpcao();
 
     }
-
-
 }
